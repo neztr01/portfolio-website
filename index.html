@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/22ab0e0232.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Document</title>
   </head>
   <body>
@@ -12,9 +16,9 @@
 
       <nav>
         <ul>
-          <a href="#about-me"><li>About Me</li></a>
-          <a href="#projects"><li>Projects</li></a>
-          <a href="#skils"><li>Skills</li></a>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
         </ul>
       </nav>
     </header>
@@ -24,7 +28,7 @@
       <figure>
         <img
           src="./images/turned-gray-laptop-computer.jpg"
-          alt="laptop screen with code editor oppened and it shows some code in it"
+          alt="Code on laptop screen"
           width="400px"
         />
       </figure>
@@ -42,24 +46,60 @@
     </section>
 
     <!-- Projects Section -->
-    <section>
-      <figure>
-        <img
-          src="./images/star-wars-logo-983.png"
-          alt="Star Wars logo"
-          width="200px"
-        />
-      </figure>
+    <section id="projects">
+      <!-- Title of the section -->
+      <header class="title-banner">
+        <h2>Projects</h2>
+      </header>
 
-      <article>
-        <h2>Star Wars Mixed Message</h2>
+      <!-- The content inside the section this going to be hide -->
 
-        <p>
-          Is a script that generates a Star Wars message mixing authors quotes
-          and which episode / movie appeared the quote.
-        </p>
-      </article>
+      <section id="project-details">
+        <!-- Star wars project -->
+        <article id="star-wars-project">
+          <figure>
+            <img
+              src="./images/star-wars-logo-983.png"
+              alt="Star Wars logo"
+              width="200px"
+            />
+          </figure>
+
+          <h2>Star Wars Mixed Message</h2>
+
+          <p>
+            Is a script that generates a Star Wars message mixing authors quotes
+            and which episode / movie appeared the quote.
+          </p>
+        </article>
+
+        <!-- more articles/projects to be added -->
+      </section>
     </section>
+
+    <!-- Skills Section Begin -->
+    <section id="skills">
+      <h1>My Skills</h1>
+
+      <figure>
+        <div class="image-container">
+          <i class="fab fa-html5 fa-2xl"></i>
+
+          <i class="fab fa-css3 fa-2xl"></i>
+
+          <i class="fab fa-js-square fa-2xl"></i>
+
+          <i class="fab fa-node fa-2xl"></i>
+
+          <i class="fab fa-python fa-2xl"></i>
+        </div>
+      </figure>
+    </section>
+
+    <!-- footer section begins -->
+    <footer>
+      <p>Made in Mexico</p>
+    </footer>
 
     <!-- JS link -->
     <script src="script.js"></script>
