@@ -30,45 +30,62 @@
       <article class="overlay">
         <h2>About Me</h2>
 
-        <p>My name is Zaid. I'm from Mexico.</p>
-
         <p>
-          Curently i'm studying to be a Software Engineer. Here are some of my
-          projects that i made until now.
+          My name is Zaid. I'm from Mexico. And here are some of those projects
+          made to show my skills while still studying.
         </p>
+
+        <p id="position">- Software Engineer -</p>
       </article>
     </section>
 
-    <!-- Projects Section -->
+    <!-- Projects Section Header -->
     <section id="projects">
-      <!-- Title of the section -->
-      <header class="title-banner">
-        <h2>Projects</h2>
-      </header>
+      <video
+        src="/video/pexels_videos_2699 (1080p).mp4"
+        autoplay
+        muted
+        loop
+        id="video-background"
+      ></video>
 
-      <!-- The content inside the section this going to be hide -->
+      <h2>Projects</h2>
 
-      <section id="project-details">
-        <!-- Star wars project -->
-        <article id="star-wars-project">
-          <figure>
-            <img
-              src="./images/star-wars-logo-983.png"
-              alt="Star Wars logo"
-              width="200px"
-            />
-          </figure>
+      <i
+        class="fas fa-chevron-down fa-2xl arrow-toggle"
+        id="project-toggle"
+      ></i>
+    </section>
 
-          <h2>Star Wars Mixed Message</h2>
+    <!-- The content inside the section this going to be toggle hide -->
+    <section id="project-details" class="hidden">
+      <!-- Star wars project -->
+      <article id="star-wars-project">
+        <figure>
+          <img
+            src="./images/star-wars-logo-983.png"
+            alt="Star Wars logo"
+            width="200px"
+          />
+        </figure>
 
-          <p>
-            Is a script that generates a Star Wars message mixing authors quotes
-            and which episode / movie appeared the quote.
-          </p>
-        </article>
+        <h2>Star Wars Mixed Message</h2>
 
-        <!-- more articles/projects to be added -->
-      </section>
+        <p>
+          Is a script that generates a Star Wars message mixing authors quotes
+          and which episode / movie appeared the quote.
+        </p>
+
+        <p>
+          <a
+            href="https://github.com/neztr01/starwars-mixed-message"
+            target="_blank"
+            >GitHub Link</a
+          >
+        </p>
+      </article>
+
+      <!-- more articles/projects to be added -->
     </section>
 
     <!-- Skills Section Begin -->
@@ -77,22 +94,22 @@
 
       <figure>
         <div class="image-container">
-          <i class="fab fa-html5 fa-2xl"></i>
+          <i class="fab fa-html5 fa-2x"></i>
 
-          <i class="fab fa-css3 fa-2xl"></i>
+          <i class="fab fa-css3 fa-2x"></i>
 
-          <i class="fab fa-js-square fa-2xl"></i>
+          <i class="fab fa-js-square fa-2x"></i>
 
-          <i class="fab fa-node fa-2xl"></i>
+          <i class="fab fa-node fa-2x"></i>
 
-          <i class="fab fa-python fa-2xl"></i>
+          <i class="fab fa-python fa-2x"></i>
         </div>
       </figure>
     </section>
 
     <!-- footer section begins -->
     <footer>
-      <p>Made in Mexico</p>
+      <p>Made in Mexico <i class="fas fa-heart"></i> with love.</p>
     </footer>
 
     <!-- JS link -->
