@@ -1,0 +1,119 @@
+/* Fonts embed */
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Victor+Mono:wght@100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* universal stylers */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: "Advent Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: 100;
+  font-size: 3rem;
+}
+
+/* Styling for the navbar and its content */
+
+h1 {
+  margin-left: 5rem;
+  font-family: "Climate Crisis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "YEAR" 1979;
+  font-size: 2rem;
+}
+
+/* adding style to the span cursive containing the name in the title */
+#cursive {
+  font-family: "Luxurious Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+#cursive:hover {
+  color: gray; /* change the color to gray when mouse is over the text*/
+}
+
+#navbar {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  background-color: black;
+  color: whitesmoke;
+}
+
+.navigation-bar {
+  width: 50%;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a {
+  font-family: "Victor Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+a:link {
+  text-decoration: none; /* take out the underline of links */
+}
+
+a:hover {
+  color: gray; /* change the color when the mouse is over the links*/
+}
+
+/* about sections styles begin */
+
+#about {
+  width: 100%;
+  height: 70vh;
+  position: relative;
+  overflow: hidden;
+}
+
+#about img {
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom right,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0.2)
+  ); /* give gradient from the top to the bottom right*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  flex-direction: column;
+}
+
+.overlay p {
+  margin: 1% 30%;
+}
