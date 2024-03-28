@@ -156,7 +156,7 @@ a:hover {
   cursor: pointer;
   border-radius: 50%;
   border: 0.2rem solid white;
-  padding: 1%;
+/*   padding: 1%; */
 }
 
 .arrow-toggle:hover {
